@@ -1,0 +1,177 @@
+.sect5{
+   width: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+}
+
+.review h1{
+font-family: Inter;
+font-size: 49px;
+font-weight: 700;
+}
+.review p{
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+.ceo{
+    width: 373px;
+height: 89px;
+background: #FFFFFF;
+box-shadow: 13px 13px 31px 0px #0000000D;
+}
+.ceo h4{
+    padding-right: 210px;
+}
+.ceo p{
+    padding-right: 160px;
+}
+
+.lorer{
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    width:90%;
+height: 236px;
+box-shadow: 13px 13px 31px 0px #0000000D;
+margin-top: -50px;
+}
+
+.lorer p{
+    font-family: Inter;
+font-size: 20px;
+font-style: italic;
+font-weight: 400;
+}
+
+.star{
+    position: relative;
+    top: -70px;
+    left: 150px;
+}
+.star .aif{
+    width: 25px;
+height: 25px;
+color: #FFE816;
+}
+.star .fad{
+    width: 25px;
+    height: 25px;
+    color: #FFF9C7;
+}
+
+.io{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: -35px;
+    color: white;
+}
+.ioi{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: -35px;
+    color: white;
+}
+.style{
+    width: 100%;
+}
+.style img{
+    width: 90%;
+}
+.none{
+    display: none;
+}
+
+@media (min-width:768px) {
+    .style{
+        width: 50%;
+        z-index: -1;
+    }
+    .style img{
+       margin-top: 50px;
+    }
+}
+
+@media (min-width:1024px) {
+    .ceo{
+        z-index: -5;
+
+    }
+    .lorer{
+        width: 570px;
+    height: 256px;
+    margin-top: -60px;
+    z-index: 2;
+    background-color: white;
+    }
+    
+    .lorer p{
+        width: 445px;
+    height: 114px;
+    padding-top: 50px;
+    }
+    
+    .text{
+        width: 45%;
+    }
+    .style{
+        width: 45%;
+        z-index: -1;
+    }
+    .star{
+        position: relative;
+        top: -15px;
+        left: 370px;
+    }
+    .star .aif{
+        width: 25px;
+    height: 25px;
+    }
+    .ceo h4{
+        padding-right:0px;
+    }
+    .ceo p{
+        padding-right:0px;
+    }
+    .none{
+        display: block;
+        position: relative;
+        width: 80px;
+height: 80px;
+top: -402px;
+left: 922.06591796875px;
+    }
+}
+
+@media (min-width:1440px) {
+    .lorer{
+        width: 800px;
+        height: 336px;
+    }
+    .lorer p{
+        margin-top: 160px;
+        padding-top: 0px;
+        margin-left: 20px;
+    }
+    .star{
+        top: -15px;
+        left: 550px;
+    }
+    .ceo{
+        width: 60%;
+        height: 150px;
+    }
+
+    .ceo p{
+        font-size: 20px;
+    }
+
+    .none{
+        margin-top: -100px;
+  display: none;
+    }
+}

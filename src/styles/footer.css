@@ -1,0 +1,26 @@
+.footer{
+    background: linear-gradient(270.77deg, #000423 -21.37%, #050A59 100.6%);
+}
+
+.link a, .help a, .short a{
+    color: white;
+    text-decoration: none;
+}
+
+.link li, .help li, .short li{
+list-style: none;
+}
+.link{
+    margin-top: 20px;
+}
+
+@media (min-width:768px) {
+   .help, .link, .short{
+    text-align: justify;
+}  
+.link{
+    margin-top: 0px;
+}
+}
+
+

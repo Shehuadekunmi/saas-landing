@@ -1,0 +1,159 @@
+.fire, .love{
+    display: none;
+}
+
+.butt{
+    width: 80%;
+    margin: auto;
+height: 56px;
+border-radius: 10px;
+box-shadow: 10px 10px white;
+}
+.year{
+    width: 108px;
+height: 36px;
+border-radius: 10px;
+border: none;
+gap: 10px;
+background: #FF5A05;
+color: white;
+}
+.month{
+    width:99px;
+height:36px;
+border-radius: 10px;
+border: none;
+gap: 10px;
+color: #FF5A05;
+background: #FF5A051A;
+}
+.one{
+    width: 100%;
+border-radius: 10px;
+}
+.two{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+.one button, .two button{
+    width: 90%;
+height: 58px;
+border-radius: 10px;
+gap: 10px;
+color: white;
+background: #FF5A05;
+border: none;
+}
+.check{
+    color: #1F37FF;
+}
+.one h1, .two h1{
+    font-family: Inter;
+font-size: 96px;
+font-weight: 700;
+color: #1F37FF;
+}
+.one-one, .two-two{
+    width: 70%;
+    margin: auto;
+}
+.one-one p, .two-two p{
+text-align: justify;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+}
+
+@media (min-width:768px) {
+    .fire, .love{
+        display: block;
+        margin-top: -60px;
+        margin-left: 90px;
+    }
+    .extral{
+        width:100%;
+height: 270px;
+background: #EBEDFF;
+margin-bottom: 440px;
+    }
+    .extral h5{
+            margin-top: 25px;
+    }
+    .extral h6{
+        padding-top: 10px;
+    }
+    .butt{
+        width: 50%;
+        background-color: white;
+    }
+    .year, .month{
+        margin-top: 13px;
+    }
+    .one-one, .two-two{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .one, .two{
+        width: 30%;
+        background-color: white;
+        gap: 10px;
+    }
+    .two{
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .one-one p, .two-two p{
+        font-size: 16px;
+        text-align: center;
+        text-align: justify;
+        }
+}
+
+@media (min-width:1000Px) {
+    .fire, .love{
+        margin-top: -60px;
+        margin-left: 130px;
+    }
+    .butt{
+        width: 40%;
+    }
+    .year{
+        width: 138px;
+    height: 46px;
+    }
+    .month{
+        width:119px;
+    height:46px;
+    }
+    .one-one p, .two-two p{
+        font-size: 16px;
+        margin-left: 70px;
+        }
+}
+
+@media (min-width:1440px) {
+    .extral{
+        margin-bottom: 500px;
+    }
+    .one-one p, .two-two p{
+        font-size: 20px;
+        margin-left: 90px;
+        }
+        .fire, .love{
+            margin-top: -60px;
+            margin-left: 190px;
+        }
+        .extral h6{
+            font-size: 26px;
+        }
+        .year{
+            width: 148px;
+        height: 46px;
+        }
+        .month{
+            width:119px;
+        height:46px;
+        }
+       
+}

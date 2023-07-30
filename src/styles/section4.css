@@ -1,0 +1,82 @@
+.hand{
+    background: #FFF9F5;
+width: 100%;
+padding-bottom: 20px;
+}
+
+.user{
+    width: 80%;
+    margin: auto;
+}
+
+.buld{
+    width: 358px;
+height: 284px;
+border-radius: 10px;
+border: 2px;
+background-color: white;
+border: 2px solid #4252CF1A;
+margin-top: 10px;
+}
+
+.buld p{
+    font-family: Inter;
+font-size: 25px;
+padding-left: 10px;
+font-weight: 500;
+}
+.buld h3{
+    font-family: Inter;
+font-size: 31px;
+font-weight: 700;
+padding-left: 10px;
+}
+
+.buld img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.buldd{
+    background: #4252CF;
+color: white;
+}
+
+.bul{
+    width: 358px;
+    height: 284px;
+    border-radius: 10px;
+    border: 2px;
+    border: 2px solid #4252CF1A;
+    margin-top: 10px;
+}
+
+.bul h6{
+    font-family: Inter;
+    font-size: 24px;
+    color: #FF5A05;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.bul h3{
+    font-family: Inter;
+    font-size: 31px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.bul p{
+    font-family: Inter;
+font-size: 25px;
+padding-left: 10px;
+font-weight: 500;
+}
+
+/* @media (min-width:768px) {
+    .buld{
+        width: 45%;
+        column-gap: 5px;
+    }
+    .bul{
+        width: 45%;
+    }
+} */
