@@ -18,7 +18,7 @@ const Section2 = () => {
                 <div className="img  d-flex flex-wrap">
                     
                     <div className='la'>
-                  <div className="lapt"> <img src={lap} alt="" className='img-fluid text-center ' /> </div> 
+                  <div className="lapt text-center align-items-center mx-auto"> <img src={lap} alt="" className='img-fluid text-center ' /> </div> 
                        <div className='d-flex num text-center  mt-2'> <img src={num} alt="" />
                         <p>Legend</p>
                         <p>+25%</p> </div>

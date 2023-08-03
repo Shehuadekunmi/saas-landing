@@ -15,7 +15,7 @@ const Section6 = () => {
                     <button className='year '>Monthly</button> <button className='month  '>Yearly</button>
                 </div>
                 <div className='d-md-flex justify-content-center  my-4'>
-                    <div className="one">
+                    <div className="one1">
                     <div className="poly">   <img src={poly} alt="" /> <img src={fire} alt="" className='fire'/> </div> 
                         <h5>Standard</h5>
                         <h1>$29</h1>
@@ -29,7 +29,7 @@ const Section6 = () => {
                         </div>
                         <button>Install Pack</button>
                     </div>
-                    <div className="two">
+                    <div className="two2 mt-4">
                     <div className="poly"> <img src={poly} alt="" /> <img src={love} alt="" className='love' /> </div>
                         <h5>Standard</h5>
                         <h1>$39</h1>

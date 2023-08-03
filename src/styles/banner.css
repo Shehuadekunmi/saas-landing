@@ -93,6 +93,10 @@ border: 1px solid white;
     .text{
         margin-top: -5px;
     }
+    .get, .free{
+        font-size: 13px;
+    }
+
 }
 
 @media (min-width:1000px) {

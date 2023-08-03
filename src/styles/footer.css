@@ -14,12 +14,33 @@ list-style: none;
     margin-top: 20px;
 }
 
+.hr{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+.short p{
+    margin-bottom: -2px;
+    margin-top: 5px;
+}
+
+.help p{
+    margin-bottom: -2px;
+    margin-top: 5px;
+}
+.link p{
+    margin-bottom: -2px;
+}
 @media (min-width:768px) {
    .help, .link, .short{
     text-align: justify;
 }  
 .link{
     margin-top: 0px;
+}
+.hr{
+    display: none;
 }
 }
 

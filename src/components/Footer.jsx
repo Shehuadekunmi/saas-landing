@@ -23,7 +23,7 @@ const Footer = () => {
         <li><a href="#">contact</a></li>
     </ul>
 </div>
-
+<hr className='hr' />
 <div className="help">
 <ul>
     <p>HELP LINK</p>
@@ -33,7 +33,7 @@ const Footer = () => {
         <li><a href="#">FAQ</a></li>
     </ul>
 </div>
-
+<hr className='hr' />
 <div className="short">
 <ul>
     <p>SHORT LINKS</p>
